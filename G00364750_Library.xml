@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  
+  <technical_catologue>
+    
+    <book>
+      <title>Learning XML</title>
+      <author>Erik T. Ray</author>
+      <ISBN>0596000464</ISBN>
+    </book>
+
+    <book>
+      <title>DOM EnlightenmentL</title>
+      <author>Cody Lindley</author>
+      <ISBN>9781449344498</ISBN>
+    </book>
+    
+  </technical_catologue>
+  
+  <cookery__catologue>
+  
+    <book>
+      <title>Veg</title>
+      <author>Jamie Oliver</author>
+      <ISBN>0718187768</ISBN>
+    </book>
+    
+    <book>
+      <title>Plenty</title>
+      <author>Yotam Ottolenghi</author>
+      <ISBN>0091933684</ISBN>
+    </book>
+    
+  </cookery__catologue>
+  
+</library>
