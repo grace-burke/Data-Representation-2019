@@ -8,18 +8,18 @@
 
     <body>
 
-        <button onclick="displayJSON()">go</button>
-
-        <script>
-                function displayJSON(){
-                    var JSON_String = '{"employees": [{"firstName": "John", "lastName": "Doe"},{"firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]}';
-                    var JSON_Obj = JSON.parse(JSON_String);
-                    for (employee of JSON_Obj.employees){
-                        console.log(employee.firstName)
-                    }
-                }
-        </script>
-
+        <button onclick="displayJSON()">Go</button>
+    
     </body>
 
+    <script>
+            function displayJSON(){
+                var JSON_String = '{"employees": [{"firstName": "John", "lastName": "Doe"},{"firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]}';
+                var JSON_Obj = JSON.parse(JSON_String);
+                for (employee of JSON_Obj.employees){
+                    console.log(employee.firstName)
+                }
+            }
+    </script>
+    
 </html>
